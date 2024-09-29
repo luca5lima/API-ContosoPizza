@@ -433,11 +433,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Documentos\\MeusProjetos\\ContosoPizza\\ContosoPizza.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Documentos\\MeusProjetos\\ContosoPizza\\ContosoPizza\\ContosoPizza.csproj",
       "projectName": "ContosoPizza",
-      "projectPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\MeusProjetos\\ContosoPizza\\ContosoPizza.csproj",
+      "projectPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\MeusProjetos\\ContosoPizza\\ContosoPizza\\ContosoPizza.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\MeusProjetos\\ContosoPizza\\obj\\",
+      "outputPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\MeusProjetos\\ContosoPizza\\ContosoPizza\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
