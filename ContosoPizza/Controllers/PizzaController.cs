@@ -33,7 +33,18 @@ public class PizzaController : ControllerBase
         PizzaService.Add(pizza);
         return CreatedAtAction(nameof(Get), new { id = pizza.Id }, pizza);
     }
+    
     // PUT action
 
-    // DELETE action
-}
+    [HttpDelete("{id}")]
+    public IActionResult Delete(int id)
+    {
+        var pizza = PizzaService.Get(id);
+    
+        if (pizza is null)
+            return NotFound();
+        
+        PizzaService.Delete(id);
+    
+        return NoContent();
+    }
